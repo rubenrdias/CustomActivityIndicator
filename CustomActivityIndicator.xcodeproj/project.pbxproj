@@ -13,6 +13,8 @@
 		53AE58AF246310AA00BD8346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AE58AD246310AA00BD8346 /* Main.storyboard */; };
 		53AE58B1246310AB00BD8346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AE58B0246310AB00BD8346 /* Assets.xcassets */; };
 		53AE58B4246310AB00BD8346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AE58B2246310AB00BD8346 /* LaunchScreen.storyboard */; };
+		53AE58BC2463123000BD8346 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AE58BB2463123000BD8346 /* Alerts.swift */; };
+		53AE58BE246312AD00BD8346 /* CustomElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AE58BD246312AD00BD8346 /* CustomElements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		53AE58B0246310AB00BD8346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53AE58B3246310AB00BD8346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53AE58B5246310AB00BD8346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53AE58BB2463123000BD8346 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		53AE58BD246312AD00BD8346 /* CustomElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomElements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				53AE58B0246310AB00BD8346 /* Assets.xcassets */,
 				53AE58B2246310AB00BD8346 /* LaunchScreen.storyboard */,
 				53AE58B5246310AB00BD8346 /* Info.plist */,
+				53AE58BB2463123000BD8346 /* Alerts.swift */,
+				53AE58BD246312AD00BD8346 /* CustomElements.swift */,
 			);
 			path = CustomActivityIndicator;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				53AE58AC246310AA00BD8346 /* ViewController.swift in Sources */,
+				53AE58BE246312AD00BD8346 /* CustomElements.swift in Sources */,
 				53AE58A8246310AA00BD8346 /* AppDelegate.swift in Sources */,
+				53AE58BC2463123000BD8346 /* Alerts.swift in Sources */,
 				53AE58AA246310AA00BD8346 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
